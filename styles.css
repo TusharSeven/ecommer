@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* navbar-section */
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(90, 172, 168);
+    color: white;
+    padding: 1.5% 2%;
+}
+.logo{
+    color: white;
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+}
+.nav-link-middle a {
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 500;
+    /* font-size: 18px; */
+}
+.nav-link-right a{
+    padding-right: 25px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
+}
+
+
+/* homepage-section */
+
+
+.home-page{
+    background-color:rgb(90, 172, 168) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* font-size:40px; */
+    font-weight: 1000;
+    align-self: center;
+    margin-bottom: 0;
+}
+.home-page p{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.first-p{
+    padding-top: 2rem;
+}
+.info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 25%;
+    /* width: 50%; */
+    /* align-self: start; */
+    align-items: center;
+    left:32%;
+
+}
+.button{
+    padding-top: 2rem;
+}
+.btn{
+    border-radius: 1.25rem;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* testimonial-section */
+
+#testimonial{
+    top: 100%;
+    position: relative;
+    z-index: 3;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19,70,68);
+    align-items: center;
+    justify-content: space-around;
+    padding: 4%;
+    width: 100%;
+}
+
+.testimonial div p{
+    padding-bottom: 10% ;
+}
+.testimonial-logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Featured-Secction */
+#featured {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.featured-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.featured-top h3{
+    color: rgb(120, 187, 184);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2rem ;
+}
+.featured-top p{
+    color:  rgb(90,113,132);
+    font-size: 19px;
+    margin-top:0.5rem;
+    width: 25%;
+    text-align: center;
+}
+.featured-top h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.featured-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    margin: 4%;
+    background-color: white;
+    align-items: center;
+    padding: 3% 4%;
+    border-radius: 2rem;
+}
+.featured-card h3{
+    color: rgb(24, 59, 86);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom:1rem;
+}
+.featured-card p{
+    color: rgb(24, 59, 86);
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+/* Benefits-section */
+
+#benefits{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 9vw ;
+}
+.benefits-text{
+    width: 40%;
+    margin: 5%;
+}
+.benefits-text h3{
+    color: rgb(120, 187, 184);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2rem ;
+}
+.benefits-text p{
+    color:  rgb(90,113,132);
+    font-size: 19px;
+    margin-top:0.5rem;
+    width: 70%;
+}
+.benefits-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 70%;
+}
+
+/* Contact-section */
+
+#contact{
+    background-color: rgb(19, 70, 68);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:6% 0 0 6% ;
+}
+.contact-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    width: 70%;
+    padding-bottom: 1.5%;
+}
+.contact-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(45, 166, 167);
+    width: 70%;
+    padding-bottom: 3%;
+}
+.input-text{
+    border-radius:2rem ;
+    padding: 0.4rem;
+}
+
+/* Footer-Section */
+
+
+.footer
+{
+    position: relative;
+    background-color: rgb(6, 41, 40);
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 5% 0;
+    color: white;
+}
+.footer h5{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(162, 174, 174);
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.footer p{
+    /* width: 70%; */
+    color: rgb(120, 187, 184);
+    padding-top: 5%;
+    margin: 0;
+}
+.footer-text{
+    padding: 0;
+    margin: 0;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.developer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.stayintouch{
+    width: 20%;
+}
+.fab{
+    padding: 0% 6% 15% 0%;
+    font-size: 140%;
+}
+.newsletter-text{
+    border-radius:0.5rem ;
+    padding: 0.4rem;
+    background-color: rgba(3, 20, 20);
+    border-color: black;
+}
+.newsletter-form .btn{
+    border-radius: 0.5rem;
+    background-color: rgb(6, 41, 40);
+    border-color: white;
+    margin-left: 1%;
+}
+.copyright{
+    background-color: rgb(6, 41, 40);
+    padding-bottom: 3%;
+    margin-top: 0;
+}
+.copyright-text{
+    /* width: 70%; */
+    text-align: center;
+    color: rgb(120, 187, 184);
+    margin: 0;
+}
