@@ -155,8 +155,9 @@ h1 {
     width: 100%;
 }
 
-.testimonial div p {
-    padding-bottom: 10%;
+#testimonial div p {
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 .testimonial-logos {
@@ -435,10 +436,9 @@ h1 {
     }
     #material-img {
         background: url(/Images/material-img1-blur.png);
-        ;
         opacity: 0.7;
         width: 500px;
-        height: 550px;
+        height: 750px;
         filter: blur(5px);
     }
     /* .material-img1 {
@@ -457,6 +457,14 @@ h1 {
     .info p {
         width: 70%;
         /* padding-bottom: 18%; */
+    }
+    /* testimonil-section */
+    #testimonial div p {
+        font-size: 15px;
+    }
+    .logos {
+        height: 32px;
+        width: 32px;
     }
 }
 
