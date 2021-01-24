@@ -51,7 +51,7 @@
             <p class="first-p">Enables ecommerce leader to create a personalized, Intuitive search ecperience that moves merchandize</p>
             <div class="button">
                 <button type="button" class="btn btn-light">Request a demo</button>
-                <button type="button" class="btn btn-warning">Create an account 🠦</button>
+                <button type="button" class="btn btn-warning">Create an account </button>
             </div>
 
         </div>
@@ -69,11 +69,11 @@
         </div>
         <!-- testimonial-logos -->
         <div class="testimonial-logos container">
-            <div class=" md-3"><img class="logos" src="Images/slack.png" alt=""></div>
-            <div class=" md-3"><img class="logos" src="Images/netflix.png" alt=""></div>
-            <div class=" md-3"><img class="logos" src="Images/airbnb.png" alt=""></div>
-            <div class=" md-3"><img class="logos" src="Images/search.png" alt=""></div>
-            <div class=" md-3"><img class="logos" src="Images/uber.png" alt=""></div>
+            <div><img class="logos" src="Images/slack.png" alt=""></div>
+            <div><img class="logos" src="Images/netflix.png" alt=""></div>
+            <div><img class="logos" src="Images/airbnb.png" alt=""></div>
+            <div><img class="logos" src="Images/search.png" alt=""></div>
+            <div><img class="logos" src="Images/uber.png" alt=""></div>
         </div>
     </section>
 
@@ -87,37 +87,39 @@
             <p>Advanced AI tools to manage every step of the experience, without the need of IT</p>
         </div>
         <!-- card-section -->
-        <div class="featured-card container">
-            <div class="card md-4">
-                <img src="Images/featured-icon1.png" alt="">
-                <h3>Filter & Facets</h3>
-                <p>Give shoppers the tools they need to drill down & find the product that's just right for them</p>
-                <a href="">Learn more 🠦</a>
-            </div>
-            <div class="card md-4">
-                <img src="Images/featured-icon2.png" alt="">
-                <h3>Merchandizing</h3>
-                <p>Run successful marketing campaigns by promoting the right products</p>
-                <a href="">Learn more 🠦</a>
-            </div>
-            <div class="card md-4">
-                <img src="Images/featured-icon3.png" alt="">
-                <h3>Instant Search</h3>
-                <p>Create beautiful autocomplete as-your-type search experiences with our UX tools</p>
-                <a href="">Learn more 🠦</a>
+        <div class="featured-card container-fluid">
+            <div class="row">
+                <div class="card col-md-3">
+                    <img src="Images/featured-icon1.png" alt="">
+                    <h3>Filter & Facets</h3>
+                    <p>Give shoppers the tools they need to drill down & find the product that's just right for them</p>
+                    <a href="">Learn more 🠦</a>
+                </div>
+                <div class="card col-md-3">
+                    <img src="Images/featured-icon2.png" alt="">
+                    <h3>Merchandizing</h3>
+                    <p>Run successful marketing campaigns by promoting the right products</p>
+                    <a href="">Learn more 🠦</a>
+                </div>
+                <div class="card col-md-3">
+                    <img src="Images/featured-icon3.png" alt="">
+                    <h3>Instant Search</h3>
+                    <p>Create beautiful autocomplete as-your-type search experiences with our UX tools</p>
+                    <a href="">Learn more 🠦</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Benefits-Section -->
     <section id="benefits">
-        <div>
+        <div class="benefits-img">
             <img src="Images/benefits-img.png" alt="">
         </div>
         <div class="benefits-text">
             <h3>Benefits</h3>
             <h2>Scale the human touch with personalization</h2>
-            <p>You know user best - give them personalized results that reflect their purchase history, preferences & demographic, without compromising on speed or reliability</p>
+            <p>You know user best, give them personalized results that reflect their purchase history, preferences & demographic, without compromising on speed or reliability</p>
         </div>
     </section>
 
@@ -126,10 +128,12 @@
         <div class="contact-text">
             <h2>Become an ecommerce search expert</h2>
             <p>Get insight from the industr's leading eccommerce players in our webinar & learn how to build the ultimate search experience for your shoppers</p>
-            <form action="post">
-                <input class="input-text" type="email" placeholder="  Your email">
-                <button type="button" class="btn btn-warning">Get started</button>
-            </form>
+            <div class="form">
+                <form class="form" action="post">
+                    <input class="input-text" type="email" placeholder="  Your email">
+                    <button type="button" class="contact-button btn btn-warning">Get started</button>
+                </form>
+            </div>
         </div>
         <div>
             <img src="Images/contact-img.png" alt="">
@@ -142,32 +146,38 @@
         <div class="footer" class="container">
             <div class="footer-text">
                 <div class="logo">ecommer</div>
-                <p>Build a modern and creative </p>
-                <p>website with crealand</p>
+                <p>Build a modern and creative <br> website with crealand</p>
             </div>
             <div class="company">
                 <h5>Company</h5>
-                <a href="">About Us</a>
-                <a href="">Customers</a>
-                <a href="">Blog</a>
-                <a href="">Press</a>
-                <a href="">Careers</a>
-                <a href="">Terms of Services</a>
-                <a href="">Contact</a>
+                <div class="company-links">
+                    <a href="">About Us</a>
+                    <a href="">Customers</a>
+                    <a href="">Blog</a>
+                    <a href="">Press</a>
+                    <a href="">Careers</a>
+                </div>
+
+                <!-- <a href="">Terms of Services</a>
+                <a href="">Contact</a> -->
             </div>
+
             <div class="developer">
                 <h5>Developer</h5>
-                <a href="">Getting Started</a>
-                <a href="">Documentation</a>
-                <a href="">Integrations</a>
-                <a href="">Press</a>
-                <a href="">FAQ</a>
-                <a href="">API Status</a>
-                <a href="">Change Log</a>
+                <div class="developer-links">
+                    <a href="">Getting Started</a>
+                    <a href="">Documentation</a>
+                    <a href="">Integrations</a>
+                    <a href="">Press</a>
+                    <a href="">FAQ</a>
+                </div>
+
+                <!-- <a href="">API Status</a>
+                <a href="">Change Log</a> -->
             </div>
             <div class="stayintouch">
                 <h5>Stay in Touch</h5>
-                <div>
+                <div class="stay-icons">
                     <i class="fab fa-google"></i>
                     <i class="fab fa-twitter"></i>
                     <i class="fab fa-instagram"></i>
@@ -184,8 +194,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p class="copyright-text">Copyright © 2021 ecommer | Developed by Tushar Sahu</p>
-            <p class="copyright-text"></p>
+            <p class="copyright-text">Copyright © 2021 ecommer | Developed by Tushar</p>
         </div>
 
     </section>
