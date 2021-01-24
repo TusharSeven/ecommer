@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 
@@ -78,6 +79,7 @@ li {
     justify-content: space-between;
     align-items: center;
     padding-top: 5%;
+    height: 88vh;
 }
 
 h1 {
@@ -85,7 +87,8 @@ h1 {
     font-family: 'Poppins', sans-serif;
     /* font-size:40px; */
     font-weight: 1000;
-    align-self: center;
+    width: 40%;
+    text-align: center;
     margin-bottom: 0;
 }
 
@@ -96,6 +99,8 @@ h1 {
 }
 
 .first-p {
+    width: 40%;
+    text-align: center;
     padding-top: 2rem;
 }
 
@@ -104,10 +109,22 @@ h1 {
     display: flex;
     flex-direction: column;
     top: 25%;
-    /* width: 50%; */
-    /* align-self: start; */
     align-items: center;
-    left: 32%;
+    justify-content: center;
+    width: 100vw;
+    right: 0;
+}
+
+#material-img {
+    width: 515px;
+    height: 560px;
+    bottom: 0;
+}
+
+#material-img2 {
+    width: 500px;
+    height: 560px;
+    bottom: -10%;
 }
 
 .button {
@@ -379,6 +396,7 @@ h1 {
 }
 
 @media screen and (max-width:768px) {
+    /* nav-bar */
     body {
         overflow-x: hidden;
     }
@@ -388,7 +406,7 @@ h1 {
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 52vh;
         top: 8vh;
         background-color: rgb(90, 172, 168);
         transform: translateX(100%);
@@ -398,6 +416,7 @@ h1 {
         align-items: center;
         transition: transform 0.5s ease-in;
         z-index: 5;
+        border-bottom-left-radius: 10%;
     }
     .nav-links li {
         opacity: 0;
@@ -409,6 +428,35 @@ h1 {
     }
     .burger {
         display: block;
+    }
+    /* homepage-section */
+    .home-page {
+        height: 92vh;
+    }
+    #material-img {
+        background: url(/Images/material-img1-blur.png);
+        ;
+        opacity: 0.7;
+        width: 500px;
+        height: 550px;
+        filter: blur(5px);
+    }
+    /* .material-img1 {
+        display: none;
+    } */
+    #material-img2 {
+        display: none;
+    }
+    .info h1 {
+        width: 80%;
+        padding-top: 5%;
+        /* padding-bottom: 7%; */
+        font-weight: 1500;
+        color: rgb(255, 255, 255);
+    }
+    .info p {
+        width: 70%;
+        /* padding-bottom: 18%; */
     }
 }
 
