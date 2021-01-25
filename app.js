@@ -2,7 +2,7 @@ const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav-links');
 const navLinks = document.querySelectorAll('.nav-links li');
 
-// document.querySelector('.material-img').innerHTML = '<img id="material-img" src="Images/material-img1-blur.png" alt=""></img>';
+document.querySelector('.material-img').innerHTML = '<img id="material-img" src="Images/material-img1-blur.png" alt=""></img>';
 
 
 const navSlide = () => {
